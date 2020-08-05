@@ -126,6 +126,12 @@ public class DialogTimeDatePickerFragment extends BottomSheetDialogFragment impl
     }
 
     @Override
+    public void showDialog() {
+        if (dateTimePickerListener != null)
+            show(getChildFragmentManager(), "");
+    }
+
+    @Override
     public void setTimePicker(Context context, TimePicker timePicker) {
         this.timePicker = timePicker;
     }

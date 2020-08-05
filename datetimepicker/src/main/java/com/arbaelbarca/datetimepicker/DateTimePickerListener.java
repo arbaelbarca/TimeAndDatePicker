@@ -18,4 +18,6 @@ public interface DateTimePickerListener {
     public void clickCancel();
 
     public void setTitle(TextView textView);
+
+    public void showDialog();
 }
