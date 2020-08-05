@@ -34,7 +34,8 @@ public class DialogTimeDatePickerFragment extends BottomSheetDialogFragment impl
     private ImageView imgClose;
     private TextView txtTitle;
 
-    public DialogTimeDatePickerFragment() {
+    public static DialogTimeDatePickerFragment newInstance() {
+        return new DialogTimeDatePickerFragment();
         // Required empty public constructor
     }
 
@@ -128,5 +129,6 @@ public class DialogTimeDatePickerFragment extends BottomSheetDialogFragment impl
     public void setTimePicker(Context context, TimePicker timePicker) {
         this.timePicker = timePicker;
     }
+
 
 }

@@ -17,7 +17,7 @@ import com.arbaelbarca.datetimepicker.DialogTimeDatePickerFragment;
 
 public class MainActivity extends AppCompatActivity {
 
-    DialogTimeDatePickerFragment dialogTimeDatePickerFragment = new DialogTimeDatePickerFragment();
+    DialogTimeDatePickerFragment dialogTimeDatePickerFragment = DialogTimeDatePickerFragment.newInstance();
     DateTimePickerListener dateTimePickerListener = new DateTimePickerListener() {
         @Override
         public void setTimePicker(Context context, TimePicker timePicker) {
