@@ -15,9 +15,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.arbaelbarca.datetimepicker.DateTimePickerListener;
 import com.arbaelbarca.datetimepicker.DialogTimeDatePickerFragment;
 
-import butterknife.BindView;
-import butterknife.ButterKnife;
-
 public class MainActivity extends AppCompatActivity {
 
     DialogTimeDatePickerFragment dialogTimeDatePickerFragment = new DialogTimeDatePickerFragment();
@@ -70,14 +67,14 @@ public class MainActivity extends AppCompatActivity {
         }
     };
 
-    @BindView(R.id.btnShowPicker)
     Button btnShowPicker;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
+
+        btnShowPicker = findViewById(R.id.btnShowPicker);
 
         btnShowPicker.setOnClickListener(new View.OnClickListener() {
             @Override
