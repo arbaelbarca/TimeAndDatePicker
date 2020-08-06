@@ -31,19 +31,19 @@ Link
 That's it! The first time you request a project JitPack checks out the code, builds it and serves the build artifacts (jar, aar).
 
 
-The following is the video library 
+# The following is the video library 
 
 ![Video Time Date Picker](https://github.com/arbaelbarca/TimeAndDatePicker/blob/master/video%20time%20and%20picker%20gift.gif)
 
-Implementation : 
+# Implementation : 
 
-1. Extend your class DateTimePickerListener : 
+# 1. Extend your class DateTimePickerListener : 
 
 public class MainActivity extends AppCompatActivity implements DateTimePickerListener {
 
-2. get listener the following : 
+# 2. get listener the following : 
 
-#       @Override
+      @Override
 	public void setTimePicker(Context context, TimePicker timePicker) {
 	int hour, minute;
         String am_pm;
