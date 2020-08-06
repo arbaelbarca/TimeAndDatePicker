@@ -37,11 +37,12 @@ The following is the video library
 
 Implementation : 
 
-Extend your class DateTimePickerListener
+1. Extend your class DateTimePickerListener : 
 
-public class MainActivity extends AppCompatActivity implements DateTimePickerListener
+public class MainActivity extends AppCompatActivity implements DateTimePickerListener {
+}
 
-get listener the following : 
+2. get listener the following : 
 
 
     @Override
