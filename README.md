@@ -1,7 +1,8 @@
 # TimeAndDatePicker
 
 
-The following stages to start this library to use now must be Androidx
+The following stages to start this library to use now must be
+Androidx and Mininimum SDK 16
 
 How to
 To get a Git project into your build:
