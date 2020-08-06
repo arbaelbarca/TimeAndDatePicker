@@ -24,7 +24,7 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        implementation 'com.github.arbaelbarca:TimeAndDatePicker:Tag'
+	        implementation 'com.github.arbaelbarca:TimeAndDatePicker:0.0.4'
 	}
 Share this release:
 
@@ -33,3 +33,5 @@ That's it! The first time you request a project JitPack checks out the code, bui
 
 
 Berikut video library 
+
+![Alt text](video time and picker gift.gif)
