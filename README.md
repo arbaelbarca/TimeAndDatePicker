@@ -41,7 +41,7 @@ That's it! The first time you request a project JitPack checks out the code, bui
 
 public class MainActivity extends AppCompatActivity implements DateTimePickerListener {
 
-# 2. get listener the following : 
+# 2. Call listener the following : 
 
       @Override
 	public void setTimePicker(Context context, TimePicker timePicker) {
