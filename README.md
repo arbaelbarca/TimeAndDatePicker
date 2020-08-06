@@ -43,24 +43,28 @@ public class MainActivity extends AppCompatActivity implements DateTimePickerLis
 
 2. get listener the following : 
 
-@Override
-    public void setTimePicker(Context context, TimePicker timePicker) {
-        int hour, minute;
+
+
+
+
+	@Override
+	public void setTimePicker(Context context, TimePicker timePicker) {
+	int hour, minute;
         String am_pm;
-        if (Build.VERSION.SDK_INT >= 23) {
+       if (Build.VERSION.SDK_INT >= 23) {
             hour = timePicker.getHour();
             minute = timePicker.getMinute();
         } else {
             hour = timePicker.getCurrentHour();
             minute = timePicker.getCurrentMinute();
         }
-        if (hour > 12) {
+       if (hour > 12) {
             am_pm = "PM";
             hour = hour - 12;
         } else {
             am_pm = "AM";
         }
-
+	
         txtTime.setText("Selected Time: " + +hour + ":" + minute + " " + am_pm);
     }
 
