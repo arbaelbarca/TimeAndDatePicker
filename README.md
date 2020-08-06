@@ -34,4 +34,4 @@ That's it! The first time you request a project JitPack checks out the code, bui
 
 Berikut video library 
 
-![Video Time Date Picker](video time and picker gift.gif)
+![Video Time Date Picker](https://github.com/arbaelbarca/TimeAndDatePicker/blob/master/video%20time%20and%20picker%20gift.gif)
