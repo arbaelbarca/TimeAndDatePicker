@@ -43,11 +43,7 @@ public class MainActivity extends AppCompatActivity implements DateTimePickerLis
 
 2. get listener the following : 
 
-
-
-
-
-	@Override
+#       @Override
 	public void setTimePicker(Context context, TimePicker timePicker) {
 	int hour, minute;
         String am_pm;
