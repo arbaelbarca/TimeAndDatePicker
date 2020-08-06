@@ -40,12 +40,10 @@ Implementation :
 1. Extend your class DateTimePickerListener : 
 
 public class MainActivity extends AppCompatActivity implements DateTimePickerListener {
-}
 
 2. get listener the following : 
 
-
-    @Override
+@Override
     public void setTimePicker(Context context, TimePicker timePicker) {
         int hour, minute;
         String am_pm;
@@ -100,14 +98,13 @@ public class MainActivity extends AppCompatActivity implements DateTimePickerLis
 
     @Override
     public void btnOk(Button btnOk) {
-//        btnOk.setText("Ok");
-//        btnOk.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorAccent));
-//        btnOk.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.white));
+   btnOk.setText("Ok");
+   btnOk.setBackgroundColor(ContextCompat.getColor(getApplicationContext(), R.color.colorAccent));
+   btnOk.setTextColor(ContextCompat.getColor(getApplicationContext(), R.color.white));
     }
 
     @Override
     public void btnCancel(Button btnCancel) {
 
     }
-
 
