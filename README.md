@@ -39,7 +39,12 @@ That's it! The first time you request a project JitPack checks out the code, bui
 
 # 1. Extend your class DateTimePickerListener : 
 
-public class MainActivity extends AppCompatActivity implements DateTimePickerListener {
+	public class MainActivity extends AppCompatActivity implements DateTimePickerListener {
+
+# 2. Set Listener like this :
+
+    DialogTimeDatePickerFragment dialogTimeDatePickerFragment = DialogTimeDatePickerFragment.newInstance();
+    dialogTimeDatePickerFragment.setListener(this);
 
 # 2. Call listener the following : 
 
