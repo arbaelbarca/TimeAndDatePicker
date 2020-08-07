@@ -47,7 +47,7 @@ That's it! The first time you request a project JitPack checks out the code, bui
     DialogTimeDatePickerFragment dialogTimeDatePickerFragment = DialogTimeDatePickerFragment.newInstance();
     dialogTimeDatePickerFragment.setListener(this);
 
-# 2. Call listener the following : 
+# 3. Call listener the following : 
 
       @Override
 	public void setTimePicker(Context context, TimePicker timePicker) {
